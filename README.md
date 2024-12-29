@@ -1,41 +1,120 @@
-# Cybersecurity RSS Feed Aggregator
+# 🚀 Cybersecurity RSS Feed Aggregator 🌐
 
-This project is a **Bash-based tool** designed to fetch and display news articles from cybersecurity-focused RSS feeds. It uses customizable keywords to filter relevant articles and provides a GUI display of matching news items.
-
----
-
-## Features
-
-- **Default and Customizable Settings**:
-  - Predefined keywords and RSS feed URLs for ease of use.
-  - Update keywords and feed URLs to match personal preferences.
-- **Configuration Management**:
-  - Save and load user preferences through a configuration file.
-  - Reset settings to default or clear configurations as needed.
-- **Article Filtering**:
-  - Automatically extracts and filters RSS feed articles based on keywords.
-  - Saves matched titles and URLs for quick reference.
-- **GUI-Based News Display**:
-  - Articles are displayed in a clean graphical interface.
-  - Clicking on a title opens the corresponding article in your browser.
-- **Logging**:
-  - Maintains a log of activities, including fetched articles and user interactions.
+This project is a **Bash-based tool** that fetches and displays 🔐 **cybersecurity news** from RSS feeds. Customize your keywords and feeds to stay updated on the latest trends in hacking, data breaches, and software vulnerabilities! 🛡️
 
 ---
 
-## Getting Started
+## ✨ Features ✨
 
-### Prerequisites
+🔥 **Default & Customizable Settings**  
+- 🚀 Predefined keywords and RSS feeds for instant setup.  
+- 🛠️ Update keywords and feeds to suit your needs.  
 
-Ensure you have the following tools installed:
-- Bash (standard on most UNIX-like systems)
-- `curl` (for fetching RSS feeds)
-- `yad` (Yet Another Dialog, for GUI display)
-- `xdg-open` (for opening URLs in the browser)
+📁 **Configuration Management**  
+- 💾 Save and load your preferences anytime.  
+- 🗑️ Reset to defaults or clear configurations with ease.  
 
-### Installation
+🔍 **Smart Article Filtering**  
+- 📰 Extract and filter RSS articles based on keywords.  
+- 💡 Save matched titles and links for quick access.  
 
-1. Clone this repository:
+🖥️ **GUI Display of News**  
+- 🎨 Beautiful graphical interface for article browsing.  
+- 🔗 Clickable links that open in your default browser.  
+
+📝 **Activity Logging**  
+- 🕒 Maintain a log of fetched articles and user actions.  
+
+---
+
+## 🚀 Getting Started
+
+### 📋 Prerequisites
+
+Ensure the following tools are installed:  
+- 🐚 **Bash**  
+- 🌐 **curl** (for fetching RSS feeds)  
+- 🖼️ **yad** (for GUI)  
+- 🔗 **xdg-open** (to open URLs)  
+
+### 📥 Installation
+
+1. Clone the repository:  
    ```bash
    git clone https://github.com/your-username/Cybersecurity-RSS-Feed-Aggregator.git
    cd Cybersecurity-RSS-Feed-Aggregator
+   ```
+2. Make the script executable:  
+   ```bash
+   chmod +x CSC320_JackOhare_0589474_PJ.sh
+   ```
+
+### ▶️ Running the Script
+
+Run the script:  
+```bash
+./CSC320_JackOhare_0589474_PJ.sh
+```
+
+Follow the 🧭 **menu prompts** to:  
+- 🛠️ Load default or custom settings.  
+- 🔍 View and manage news articles.  
+
+---
+
+## 📂 File Structure
+
+- 📄 **`cleanTitles.txt`**: Matched article titles.  
+- 📄 **`cleanURL.txt`**: URLs of matched articles.  
+- 🗒️ **`news_log.txt`**: Logs actions and matched articles.  
+- 🛠️ **`user_preferences.cfg`**: Stores user keywords and RSS feeds.  
+
+---
+
+## 🎨 Customization
+
+### 🔧 Updating Keywords and RSS Feeds
+
+1. Select "Update Preferences" in the menu.  
+2. 🖋️ Enter new keywords (comma-separated).  
+3. 🌐 Enter new RSS feed URLs (comma-separated).  
+
+### 🗑️ Resetting Configuration
+
+Select "Clear Configuration" to return to default settings.  
+
+---
+
+## 🛠️ Troubleshooting
+
+- **❌ No Articles Found**:  
+  - Check if RSS feed URLs are active.  
+  - Ensure your keywords match current cybersecurity trends.  
+
+- **❌ Missing GUI**:  
+  - Install `yad`:  
+    ```bash
+    sudo apt-get install yad
+    ```  
+
+---
+
+## 🌟 Future Enhancements
+
+- 🛡️ Improved error handling for RSS parsing.  
+- 🎨 Additional GUI themes and options.  
+- 🔄 Background daemon for scheduled updates.  
+
+---
+
+## 📜 License
+
+📝 This project is open-source under the **MIT License**.  
+
+---
+
+## 👨‍💻 Author
+
+**Jack O'Hare**  
+📧 Email: [jmohare@cn.edu](mailto:jmohare@cn.edu)  
+🐙 GitHub: [your-username](https://github.com/your-username)  
