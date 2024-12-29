@@ -26,6 +26,12 @@ This project is a **Bash-based tool** that fetches and displays 🔐 **cybersecu
 - 🕒 Maintain a log of fetched articles and user actions.  
 
 ---
+## 📸 Screenshots
+![Screenshot 2024-11-17 204617](https://github.com/user-attachments/assets/4b3d5cbe-3877-4359-9f99-bf10073de028)
+![Screenshot 2024-11-17 213250](https://github.com/user-attachments/assets/58fb9efe-c0b1-48db-868a-4f1c9437ddad)
+![Screenshot 2024-11-17 213420](https://github.com/user-attachments/assets/b0663d03-ea22-415b-b632-cee804198727)
+
+
 
 ## 🚀 Getting Started
 
@@ -109,12 +115,11 @@ Select "Clear Configuration" to return to default settings.
 
 ## 📜 License
 
-📝 This project is open-source under the **MIT License**.  
+📝 This project is open-source under the **WTFPL License**.  
 
 ---
 
 ## 👨‍💻 Author
 
 **Jack O'Hare**  
-📧 Email: [jmohare@cn.edu](mailto:jmohare@cn.edu)  
-🐙 GitHub: [your-username](https://github.com/your-username)  
+
